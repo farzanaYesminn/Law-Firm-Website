@@ -1,0 +1,44 @@
+.header-text-one {
+    font-family: 'EB Garamond';
+    font-weight: 800;
+    font-size: 62px;  
+  }
+
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-text {
+
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+ 
+}
+
+button{  
+    font-family: 'Poppins' ;
+    font-weight: 600;
+    height: 50px;
+    border: none;
+    background: #B68C5A;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+.text-color{
+    color: #B68C5A;
+}
